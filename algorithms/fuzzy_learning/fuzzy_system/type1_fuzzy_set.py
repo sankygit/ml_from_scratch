@@ -99,7 +99,7 @@ class Type1FuzzySet:
 		idx_hi = (np.abs(domain_elements - set_hi)).argmin()
 		set_hi = domain_elements[idx_hi]
 
-		# set_mid_1 = (set_low + set_mid) / 2 
+		set_mid_1 = (set_low + set_mid) / 2 
 		idx_mid_1 = (np.abs(domain_elements - set_mid_1)).argmin()
 		set_mid_1 = domain_elements[idx_mid_1]
 

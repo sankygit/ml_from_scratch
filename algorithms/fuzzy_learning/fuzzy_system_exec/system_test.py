@@ -1,4 +1,5 @@
 #from fuzzy_learning._implementation.fuzzy_system import *
+from fuzzy_system.type1_fuzzy_variable import Type1FuzzyVariable
 from fuzzy_system.fuzzy_system import FuzzySystem
 from fuzzy_system.fuzzy_clause import FuzzyClause
 
