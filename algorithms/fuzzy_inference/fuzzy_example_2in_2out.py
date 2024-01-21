@@ -91,3 +91,4 @@ output = system.evaluate_output({
 
 
 print(output)
+system.plot_system()
