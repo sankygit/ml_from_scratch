@@ -3,10 +3,10 @@ from fuzzy_system.fuzzy_variable_input import FuzzyInputVariable
 # from fuzzy_system.fuzzy_variable import FuzzyVariable
 from fuzzy_system.fuzzy_system import FuzzySystem
 
-temp = FuzzyInputVariable('Temperature', 10, 40, 100)
-temp.add_triangular('Cold', 10, 10, 25)
-temp.add_triangular('Medium', 15, 25, 35)
-temp.add_triangular('Hot', 25, 40, 40)
+temp = FuzzyInputVariable('Temperature', 0, 100, 100)
+temp.add_triangular('Cold', 0, 0, 50)
+temp.add_triangular('Medium', 10, 50, 90)
+temp.add_triangular('Hot', 50, 100, 100)
 
 humidity = FuzzyInputVariable('Humidity', 20, 100, 100)
 humidity.add_triangular('Wet', 20, 20, 60)
